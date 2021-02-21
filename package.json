@@ -4,7 +4,7 @@
   "description": "Task from Sentri to build 5 APIs using express and connect that with mongodb using mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index"
   },
   "git repository": "https://github.com/Arun-Samuel-007/App-for-Sentri.git",
   "keywords": [
@@ -14,5 +14,16 @@
     "api"
   ],
   "author": "Arun Samuel",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.17",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
